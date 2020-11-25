@@ -2,7 +2,7 @@ TEMPLATE = app
 CONFIG += console c++11
 SOURCES += main.cpp
 
-TARGET = qtViewFFmpeg
+TARGET = qtViewFFmpeg 
 
 INCLUDEPATH += $$PWD\..\..\include
 LIBS += -L$$PWD\..\..\lib\win64
