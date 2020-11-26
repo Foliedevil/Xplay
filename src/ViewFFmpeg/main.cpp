@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
         //32λ win
         cout << "this is windows32" << endl;
     #endif
+#else
+    cout<<" this is linux "<<endl;
 #endif
 	cout << "ffmpeg config:"<<avcodec_configuration() << endl;
 	getchar();
